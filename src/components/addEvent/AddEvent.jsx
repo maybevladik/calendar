@@ -17,6 +17,10 @@ const AddEvent = (props) => {
         props.isOpenChange(false);
     }
 
+    const onCancel = () => {
+        props.isOpenChange(false);
+    }
+
     return(
         <div className = { styles.wrapper }>
             <div className = { styles.wrapperContainer }>
@@ -54,7 +58,7 @@ const AddEvent = (props) => {
                 </div>
                 <div className = { styles.footer } >
                     <span>
-                        <button className = { styles.cancel }>Cancel</button>
+                        <button className = { styles.cancel } onClick = { onCancel } >Cancel</button>
                     </span>
                     <span>
                         <button onClick = { onSave }>Save</button>
