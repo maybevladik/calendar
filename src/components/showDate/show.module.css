@@ -1,0 +1,43 @@
+.numbersWrapper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #F4F7F9;
+    grid-gap: 2px;
+}
+
+.number{
+    min-height: 80px;
+    min-width: 100px;
+    background-color:white;
+}
+
+.currentNumber{
+    min-height: 80px;
+    min-width: 100px;
+    background-color: #F4F7F9;
+}
+
+.numberWrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.numberPosition{
+    display: flex;
+    margin-right: 3px;
+}
+
+.daysOfWeek{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.daysOfWeek span {
+    display: flex;
+    background-color: #F4F7F9;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+}

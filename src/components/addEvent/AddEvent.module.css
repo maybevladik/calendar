@@ -1,0 +1,51 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.wrapperContainer{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 350px;
+    width: 300px;
+    padding: 0 15px 0 15px;
+}
+
+input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+input {
+    border: none;
+    width: 290px;
+}
+
+.header{
+    margin-top: 20px;
+}
+
+.titleItem{
+   display: flex;
+   justify-content: flex-start; 
+}
+
+.titleItem span{
+    color: gray;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 20px 0;
+}
+
+.footer button{
+    background: white;
+    border: none;
+}
+
+.cancel{
+    color: red;
+}
